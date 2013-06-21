@@ -1,0 +1,31 @@
+setenv PATH ${HOME}:/usr/local/bin:${PATH}
+
+#escape `' '
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%{.bW}%-w%{.rW}%n %t%{-}%+w %=%{..G} %H %{..Y} %m/%d %C%a "
+vbell on
+# shelltitle "$ |bash"
+
+# auto-screen support; see http://taint.org/wk/RemoteLoginAutoScreen
+# detach on hangup
+autodetach on
+# no startup msg
+startup_message off
+# always use a login shell
+shell -bash
+
+# auto-log
+# logfile $HOME/etc/screen-logs/%Y%m%d-%n.log
+# deflog on
+
+# delete sends ^H
+# bindkey -k kD stuff ^H
+
+# delete sends 'delete'
+bindkey -k kD stuff \177
+
+# multiuser support
+multiuser on
+# acladd kilian
+
