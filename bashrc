@@ -35,6 +35,8 @@ export GIT_EDITOR=vim
 # Set the prompt to show the current git branch:                                
 . ~/.prompt.sh
 
+. ~/.git-completion.sh
+
 # pkgconfig from stow packages
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:/sw/lib/pkgconfig
 
