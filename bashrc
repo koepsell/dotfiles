@@ -1,7 +1,7 @@
 export CUDA=/usr/local/cuda
 export BOOST=/usr/local/stow/boost-1-46-1
 export PATH=${HOME}/Library/Python/2.7/bin:"${PATH}"
-export PATH=~/bin:/usr/local/sbin:/usr/local/bin:/usr/local/share/python:/usr/local/cuda/bin:"${PATH}"
+export PATH=~/bin:/usr/local/sbin:/usr/local/bin::/usr/local/cuda/bin:"${PATH}"
 
 export EDITOR=vim
 # export VERSIONER_PYTHON_PREFER_32_BIT=yes
